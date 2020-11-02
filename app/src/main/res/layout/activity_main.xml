@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_User"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/et_box_login_pass"
+        android:hint="@string/et_login"
+        android:padding="@dimen/_5sdp"
+        android:text="Admin"
+        android:textColor="@color/text_btn_login" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/et_User"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/et_box_login_pass"
+        android:hint="@string/et_pass"
+        android:padding="@dimen/_5sdp"
+        android:text="Admin"
+        android:textColor="@color/text_btn_login" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_pass"
+        android:layout_centerHorizontal="true"
+        android:background="@color/btn_login"
+        android:text="@string/btn_login"
+        android:textColor="@color/text_btn_login" />
+</RelativeLayout>

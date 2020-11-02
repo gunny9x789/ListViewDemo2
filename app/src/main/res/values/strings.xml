@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Baitaplistview2</string>
+    <string name="et_login">User</string>
+    <string name="et_pass">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="tile_order">Food order</string>
+    <string name="tile_listItem">Welcome KhoaHa</string>
+</resources>
